@@ -1,0 +1,17 @@
+{
+  "name": "testrobots",
+  "version": "1.0.0",
+  "description": "martin robots test",
+  "main": "main04b.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "author": "Serge S.E.",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}

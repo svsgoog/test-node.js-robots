@@ -1,0 +1,17 @@
+bash$ mocha
+
+  Robot.js tests:
+    Test1: Robot.doMove( 1 1 E + R )
+      ✓ robot(1 1 E) + move(R) -> should be: robot(1 1 S)
+    Test2: Robot.doMove( 1 1 E + L )
+      ✓ robot(1 1 E) + move(L) -> should be: robot(1 1 N)
+    Test3: Robot.doMove( 1 1 E + F )
+      ✓ robot(1 1 E) + move(F) -> should be: robot(2 1 E)
+    Test4: Robot.doMove( 3 3 N + F )
+      ✓ robot(3 3 N) + move(F) -> should be: robot(3 3 N lost)
+
+
+  4 passing (5ms)
+
+bash$
+

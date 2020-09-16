@@ -1,0 +1,18 @@
+bash$ node main04b.js 
+--- Enter input strings terminated with ^D ---
+5 3
+1 1 E
+RFRFRFRF
+3 2 N
+FRRFLLFFRRFLL
+0 3 W
+LLFFFLFLFL
+------ now processing robots/moves ------
+inp = 1 1 E RFRFRFRF
+1 1 E
+inp = 3 2 N FRRFLLFFRRFLL
+3 3 N LOST
+inp = 0 3 W LLFFFLFLFL
+2 3 S
+bash$ 
+
